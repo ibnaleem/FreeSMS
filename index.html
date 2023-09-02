@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreeSMS - Send 1 SMS For Free</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>FreeSMS</h1>
+  <p>An anonymous SMS sending tool</p>
+  <p>Note: Numbers must be in <a href="https://en.wikipedia.org/wiki/E.164" target="_blank">E.164 format</a></p>
+
+  <input type="text" id="e164Number" placeholder="Number in E.164 format"><br><br>
+
+  <input type="text" id="message" placeholder="Message"><br><br>
+
+  <label for="haveApiKey">Have an API Key?</label>
+  <input type="checkbox" id="haveApiKey"><br><br>
+
+  <div id="apiKeyField" style="display: none;">
+    <input type="text" id="apiKey" placeholder="API Key" value="textbelt"><br><br>
+  </div>
+
+  <button id="sendSMS">Send SMS</button>
+
+  <footer>
+    Created by <a href="https://github.com/ibnaleem" target="_blank">Ibn Aleem</a>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

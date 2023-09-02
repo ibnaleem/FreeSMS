@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico',;
+  text-align: center;
+  color: #333;
+  font-size: 48px;
+  margin-top: 0;
+}
+
+
+p {
+  font-size: 24px;
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+}
+
+
+form {
+  max-width: 400px;
+  margin: 0 auto; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+}
+
+label[for="haveApiKey"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+p.result {
+  text-align: center;
+  font-size: 24px;
+  color: #007BFF;
+  margin-top: 20px;
+}
+
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
